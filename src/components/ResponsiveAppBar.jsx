@@ -15,12 +15,12 @@ import AdbIcon from '@mui/icons-material/Adb';
 import { useNavigate } from 'react-router-dom';
 import auth from './auth';
 
-const pages = ['Home', 'Crypto Info', 'Solidity'];
-const settings = ['Profile', 'Logout'];
+const pages = ['Home', 'Input', 'OutPut'];
+const settings = ['Logout'];
 const pages_url = {
   'Home': '/',
-  'Crypto Info': '/crypto-private-info',
-  'Solidity': '/solidity'
+  'Input': '/input',
+  'OutPut': '/output'
 }
 
 function ResponsiveAppBar() {
